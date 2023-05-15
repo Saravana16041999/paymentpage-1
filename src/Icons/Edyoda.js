@@ -20,8 +20,8 @@ export const Edyoda = () => {
           y2="6.39219"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.421369" stop-color="#0096FF" />
-          <stop offset="0.966978" stop-color="#0048FF" />
+          <stop offset="0.421369" stopColor="#0096FF" />
+          <stop offset="0.966978" stopColor="#0048FF" />
         </linearGradient>
       </defs>
     </svg>

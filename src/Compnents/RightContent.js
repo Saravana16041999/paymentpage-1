@@ -20,14 +20,15 @@ const RightContent = () => {
       discount = one.discount;
     } else if (two.isActive) {
       total = two.price;
-      discount = one.discount;
+      discount = two.discount;
     } else {
       total = three.price;
-      discount = one.discount;
+      discount = three.discount;
     }
   };
 
   AllTotal(Firstone, Secondone, Thirdone);
+
   return (
     <section className="right-content">
       <div className="user-container">
@@ -48,17 +49,17 @@ const RightContent = () => {
           </div>
           <h4>12 Months Subscription</h4>
         </div>
-        <lable className="total">
+        <div className="total">
           <p>Total ₹99</p>
           <small className="mo">
             ₹8/<span>mo</span>
           </small>
-        </lable>
+        </div>
         <small className="tag tag1">Offer expired</small>
       </button>
       <button
         id="course-sub"
-        className={Firstone.isActive && "active"}
+        className={Firstone.isActive ? "active" : "none"}
         onClick={() => {
           dispatch(ActiveFirstOne());
         }}
@@ -67,17 +68,17 @@ const RightContent = () => {
           <div className="tick">{Firstone.isActive && <Active />}</div>
           <h4>12 Months Subscription</h4>
         </div>
-        <lable className="total">
+        <div className="total">
           <p>Total ₹179</p>
           <small>
             ₹15/<span>mo</span>
           </small>
-        </lable>
+        </div>
         <small className="tag tag2">Recommended</small>
       </button>
       <button
         id="course-sub"
-        className={Secondone.isActive && "active"}
+        className={Secondone.isActive ? "active" : "none"}
         onClick={() => {
           dispatch(ActiveSecondOne());
         }}
@@ -86,16 +87,16 @@ const RightContent = () => {
           <div className="tick">{Secondone.isActive && <Active />}</div>
           <h4>6 Months Subscription</h4>
         </div>
-        <lable className="total">
+        <div className="total">
           <p>Total ₹149</p>
           <small>
             ₹25/<span>mo</span>
           </small>
-        </lable>
+        </div>
       </button>
       <button
         id="course-sub"
-        className={Thirdone.isActive && "active"}
+        className={Thirdone.isActive ? "active" : "none"}
         onClick={() => {
           dispatch(ActiveThirdtOne());
         }}
@@ -104,12 +105,12 @@ const RightContent = () => {
           <div className="tick">{Thirdone.isActive && <Active />}</div>
           <h4>3 Months Subscription</h4>
         </div>
-        <lable className="total">
+        <div className="total">
           <p>Total ₹99</p>
           <small>
             ₹33/<span>mo</span>
           </small>
-        </lable>
+        </div>
       </button>
       <div className="bar"></div>
       <div className="Subscription">
