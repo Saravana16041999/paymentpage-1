@@ -3,13 +3,13 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   Firstone: {
     id: 1,
-    discount: "-18,321",
+    discount: "18,321",
     price: "18,500",
     isActive: false,
   },
   Secondone: {
     id: 2,
-    discount: "-9,000",
+    discount: "9,000",
     price: "9,250",
     isActive: false,
   },
