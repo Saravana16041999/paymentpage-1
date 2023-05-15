@@ -19,12 +19,12 @@ body {
   color: black;
 }
 
-.right-side-nav {
+.left-side-nav {
   display: flex;
   width: 450px;
   justify-content: space-between;
   align-items: center;
-  margin: 70px;
+  margin: 80px;
 }
 
 select {
@@ -32,8 +32,8 @@ select {
   border: none;
   margin: 9px;
 }
-.left-side-nav {
-  margin-right: 50px;
+.right-side-nav {
+  margin-right: 60px;
   width: 380px;
   display: flex;
   align-items: center;

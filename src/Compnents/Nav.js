@@ -4,7 +4,7 @@ import { Search } from "../Icons/Icons";
 const Nav = () => {
   return (
     <nav className="nav-bar">
-      <div className="right-side-nav">
+      <div className="left-side-nav">
         <div className="edyoda-icon">
           <Edyoda />
         </div>
@@ -17,7 +17,7 @@ const Nav = () => {
           <select></select>
         </div>
       </div>
-      <div className="left-side-nav">
+      <div className="right-side-nav">
         <Search />
         <button className="login-btn">Log in</button>
         <button className="joinnow-btn">JOIN NOW</button>
