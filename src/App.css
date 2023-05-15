@@ -284,7 +284,7 @@ s span {
   border: none;
   color: #ffffff;
 }
-.checkbox-name div {
+.non {
   width: 15px;
   height: 15px;
   border-style: solid;
@@ -325,4 +325,5 @@ img {
 }
 .tick {
   border: none;
+  margin: 10px;
 }

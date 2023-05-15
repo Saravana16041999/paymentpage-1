@@ -44,7 +44,7 @@ const RightContent = () => {
       <h3>Select your subcription plan</h3>
       <button id="course-sub" className="disable">
         <div htmlFor="checkbox" className="checkbox-name">
-          <div>
+          <div className="non">
             <Disable />
           </div>
           <h4>12 Months Subscription</h4>
@@ -65,7 +65,9 @@ const RightContent = () => {
         }}
       >
         <div htmlFor="checkbox" className="checkbox-name">
-          <div className="tick">{Firstone.isActive && <Active />}</div>
+          <div className={Firstone.isActive ? "tick" : "non"}>
+            {Firstone.isActive && <Active />}
+          </div>
           <h4>12 Months Subscription</h4>
         </div>
         <div className="total">
@@ -84,7 +86,9 @@ const RightContent = () => {
         }}
       >
         <div htmlFor="checkbox" className="checkbox-name">
-          <div className="tick">{Secondone.isActive && <Active />}</div>
+          <div className={Secondone.isActive ? "tick" : "non"}>
+            {Secondone.isActive && <Active />}
+          </div>
           <h4>6 Months Subscription</h4>
         </div>
         <div className="total">
@@ -102,7 +106,9 @@ const RightContent = () => {
         }}
       >
         <div className="checkbox-name">
-          <div className="tick">{Thirdone.isActive && <Active />}</div>
+          <div className={Thirdone.isActive ? "tick" : "non"}>
+            {Thirdone.isActive && <Active />}
+          </div>
           <h4>3 Months Subscription</h4>
         </div>
         <div className="total">
