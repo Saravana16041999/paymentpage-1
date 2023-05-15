@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(../public//images/Back\ Ground.png);
+  background-color: #172746;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.right-side-nav {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px;
+}
+
+select {
+  background: none;
+  border: none;
+  margin: 9px;
+}
+.left-side-nav {
+  margin-right: 50px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-btn {
+  background: none;
+  border: non;
+  border-style: none;
+}
+.joinnow-btn {
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  height: 35px;
+  width: 160px;
+  border: none;
+  border-radius: 35px;
+  color: #ffffff;
+}
+.left-content {
+  width: 500px;
+  height: 700px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.head-one {
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.dis {
+  display: flex;
+  align-items: center;
+}
+
+.dis p {
+  font-size: 18px;
+  margin: 28px;
+}
+
+.right-content {
+  width: 450px;
+  height: 750px;
+  background-color: #ffffff;
+  color: #3c4852;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.content-page {
+  margin: 50px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  height: 600px;
+}
+.left-content span {
+  font-family: "Roboto", sans-serif;
+  color: #0096ff;
+}
+
+s {
+  color: #ff0000;
+}
+s span {
+  color: white;
+}
+.user-container {
+  display: flex;
+  width: 300px;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.user {
+  margin: 10px;
+  text-align: center;
+}
+.user button {
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #0096ff;
+  color: #ffffff;
+}
+.right-content h3 {
+  font-size: 18px;
+}
+#course-sub {
+  width: 400px;
+  height: 55px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  color: #3c4852;
+  border-color: rgba(60, 72, 82, 0.448);
+  position: relative;
+}
+.tag {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  background-color: gray;
+  width: 120px;
+  height: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: #ffffff;
+}
+.tag1 {
+  background-color: #f77171;
+  color: #ffffff;
+}
+.tag2 {
+  background-color: #47ba68;
+  color: #ffffff;
+}
+.course-sub h4 {
+  font-weight: 500;
+}
+.course-sub label {
+  font-size: 18px;
+}
+.checkbox-name {
+  display: flex;
+  align-items: center;
+}
+.checkbox-name :checked + label {
+  display: none;
+}
+.total {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.total p {
+  margin: 0px;
+}
+.total span {
+  color: #bebebe;
+}
+.bar {
+  width: 380px;
+  height: 2px;
+  background-color: #bebebe;
+  margin: 10px;
+}
+.Subscription {
+  display: flex;
+  width: 350px;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.Limited-offer {
+  width: 380px;
+  height: 60px;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #de4313;
+  border-color: Linear Gradient #de4313 0% #de4313 0.75% #de4313 2.92% #de4414
+    6.37% #df4515 10.97% #df4816 16.59% #e04b18 23.1% #e1501b 30.37% #e3561f
+    38.27% #e55e24 46.66% #e7682b 55.41% #eb7533 64.39% #ee843c 73.47% #f39547
+    82.52% #f8a954 91.41% #fec163 100%;
+  border-style: solid;
+}
+.Limited-offer h4 {
+  display: flex;
+  flex-direction: column;
+  color: #de4313;
+  margin: 10px;
+}
+.Limited-offer span {
+  color: #de421386;
+  margin-left: 10px;
+  margin: 10px;
+}
+.Limited-offer p {
+  margin-right: 10px;
+  color: black;
+}
+.total-gst {
+  display: flex;
+  width: 340px;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 14px;
+}
+.total-gst span {
+  font-weight: 400;
+}
+.btn-contain {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cancle-btn {
+  width: 190px;
+  height: 45px;
+  border-color: #f77171;
+  border-width: 2px;
+  border-style: solid;
+  color: #f77171;
+  border-radius: 5px;
+}
+.pay-btn {
+  width: 190px;
+  height: 45px;
+  background-color: #47ba68;
+  border: none;
+  color: #ffffff;
+}
+.checkbox-name div {
+  width: 15px;
+  height: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #bebebe;
+}
+.disable {
+  background-color: #e7e7e7;
+  color: #bebebe;
+}
+.disable h4 {
+  color: #bebebe;
+}
+.disable p {
+  color: #bebebe;
+}
+.mo {
+  color: #bebebe;
+}
+img {
+  width: 100px;
+  height: 40px;
+}
+.image-end {
+  margin: 20px;
+  width: 400px;
+}
+.active {
+  background-color: #47ba6867;
+  border-color: #47ba68;
+  border-style: solid;
+  border-width: 2px;
+}
+.tick {
+  border: none;
+}
